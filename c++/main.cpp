@@ -5,19 +5,22 @@
 //  Created by 华伟吴 on 14-9-5.
 //  Copyright (c) 2014年 华伟吴. All rights reserved.
 //
+#include <string>
+#include <stdio.h>
+#include <stdlib.h>
 
-#include <iostream>
-#include <stack>
-#include <vector>
-#include <map>
-#include <cmath>
-#include <iomanip>
-#include "time.h"
-#include "MemoryManager.h"
+#include "polity.h"
+#include "PolityTest.h"
+
+using namespace std;
+
 
 int main(int argc, const char * argv[])
 {
-    std::
+    mallocWidget widget;
+    std::string* polity = widget.Create();
+    *polity = "hello";
+    
     return 0;
 }
 
