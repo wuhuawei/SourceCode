@@ -34,3 +34,47 @@ public:
 //    std::cout<<typeid(CString &).name()<<std::endl;
 //    std::cout<<typeid(CString *).name()<<std::endl;
 /* typdeid */
+
+
+//    mallocWidget widget;
+//    std::string* polity = widget.Create();
+//    *polity = "hello";
+
+
+//void display()
+//{
+//    glClear(GL_COLOR_BUFFER_BIT);
+//    glBegin(GL_POLYGON);
+//    glVertex2f(-0.5, -0.5);
+//    glVertex2f(-0.5, 0);
+//    glVertex2f(0.5, 0.5);
+//    glVertex2f(0.5, -0.5);
+//    glEnd();
+//    glFlush();
+//}
+//    glutInit(&argc, argv);
+//    glutCreateWindow("Xcode Glut Demo");
+//    glutDisplayFunc(display);\
+//    glutMainLoop();
+
+
+//#include <stdio.h>
+//#include <iterator> //for iterator adapters
+//#include <deque>
+//#include <algorithm> //for copy()
+//#include <iostream>
+//#include <vector>
+//#include <fstream>
+//istream_iterator<int> eoff;
+//ifstream infile("/Users/huaweiwu/a.txt"); //运行前，请让f:\\test.txt里面只有一个整数
+//istream_iterator<int> input(infile);
+//cout<<"the first element:"<<*input<<endl;
+//++input;
+//cout<<(input == eoff ? "EOF" : "others")<<endl;
+//
+//cout<<"*******************"<<endl;
+//cout<<"请输入整数,按ctrl+z结束输入:"<<endl;
+//vector<int> ivec;
+//copy(istream_iterator<int>(cin),istream_iterator<int>(),back_inserter(ivec));
+////下句为将ivec内容输出屏幕
+//copy(ivec.begin(),ivec.end(),ostream_iterator<int>(cout,"\t"));
