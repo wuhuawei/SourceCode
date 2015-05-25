@@ -78,3 +78,21 @@ public:
 //copy(istream_iterator<int>(cin),istream_iterator<int>(),back_inserter(ivec));
 ////下句为将ivec内容输出屏幕
 //copy(ivec.begin(),ivec.end(),ostream_iterator<int>(cout,"\t"));
+
+/* std::ignore() */
+//    int a,b,c;
+//    cout<<"input a:";
+//    cin>>a;
+//    cin.ignore(1024, '\n');
+//    cout<<"input b:";
+//    cin>>b;
+//    cin.ignore(1024, '\n');
+//    cout<<"input c:";
+//    cin>>c;
+//    cout<<a<<"\t"<<b<<"\t"<<c<<endl;
+/* std::ignore() */
+
+//mallocWidget widget;
+//std::string* polity = widget.Create();
+//*polity = "hello";
+

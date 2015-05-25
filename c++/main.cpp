@@ -16,14 +16,13 @@
 #include <memory>
 using namespace std;
 
-int main(int argc, char * argv[])
+int main(int argc, const char * argv[])
 {
-    ostream_iterator<int> outite(std::cout, " ");
-    int ia[6] = {1, 3, 5, 7, 9, 11};
-    std::vector<int> iv(ia, ia+6);
-
-    adjacent_difference(iv.begin(), iv.end(), 0);
-    auto_ptr<string> ms(new string("jjhou"));
+    int temp[] = {5,6,7,8};
+    std::vector<int> var(temp, temp+4);
+    std::vector<int> desc;
+//    copy(var.begin(), var.end(), desc.begin());
+    
     return 0;
 }
 
